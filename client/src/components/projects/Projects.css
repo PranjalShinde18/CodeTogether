@@ -1,0 +1,98 @@
+.projects-container {
+    padding: 20px;
+}
+
+.projects-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.project-buttons {
+    display: flex;
+    gap: 10px;
+}
+
+.create-project-button,
+.join-project-button {
+    width: 180px;
+    height: 50px;
+    background-color: #333333;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.create-project-button:hover,
+.join-project-button:hover {
+    background-color: black;
+}
+
+.projects-section {
+    margin-top: 20px;
+
+}
+
+.projects-section h3 {
+    color: gray;
+    text-align: left;
+}
+
+
+.projects-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.project-card {
+    background-color: #f8f9fa;
+    border: 1px solid #dee2e6;
+    border-radius: 5px;
+    padding: 20px;
+    width: 300px;
+}
+
+.project-card h4 {
+    margin: 0;
+    color: rgb(40, 34, 34);
+}
+
+.project-icon {
+    font-size: 22px;
+    color: white;
+    font-weight: 100;
+}
+
+
+
+.task-button,
+.code-button {
+
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    background-color: #429aff;
+    color: #fff;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.task-button:hover,
+.code-button:hover {
+    background-color: rgb(0, 107, 200);
+}
+
+
+.message {
+    font-size: 1.2rem;
+    color: #666;
+    margin-top: 20px;
+}

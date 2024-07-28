@@ -1,0 +1,113 @@
+.sidebar {
+  position: fixed;
+  width: 250px;
+  height: 100vh;
+  background: white;
+  transition: width 0.3s;
+  box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  padding: 0 20px;
+  padding-top: 20px;
+}
+
+.menu-icon {
+  font-size: 24px;
+  cursor: pointer;
+  color: #000000;
+}
+
+.logo-name {
+  font-size: 22px;
+  color: #000000;
+  margin-left: 10px;
+  font-weight: 500;
+}
+
+.sidebar-content {
+  margin-top: 20px;
+}
+
+.lists {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.list {
+  margin-bottom: 20px;
+}
+
+.nav-link {
+  display: flex;
+  align-items: center;
+  padding: 10px 20px;
+  text-decoration: none;
+  color: #000000;
+  transition: background 0.3s, color 0.3s;
+}
+
+.nav-link:hover {
+  margin-left: 8px;
+  margin-right: 8px;
+  border-radius: 8px;
+  background: #f3f3f3;
+  color: #000;
+}
+
+.icon {
+  font-size: 20px;
+  margin-right: 10px;
+  color: #333;
+}
+
+.bottom-content {
+  position: absolute;
+  bottom: 30px;
+  width: 100%;
+}
+
+.user-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 20px;
+  margin-right: 20px;
+
+}
+
+.user-info p {
+  font-size: 16px;
+  font-weight: 500;
+  margin: 0;
+  color: #000000;
+}
+
+.logout-button,
+.login-button {
+  background: #ffffff;
+  width: 25%;
+  margin-right: 20px;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  transition: background 0.3s;
+  font-size: 14px;
+}
+
+.logout-button:hover,
+.login-button:hover {
+  transform: scale(1.1);
+  background: transparent;
+}
+
+.user-info-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
