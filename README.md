@@ -28,8 +28,9 @@ Collaborate, code, and conquer your projects together with this Collaborative Co
 
 1. **Clone the repository**
    ```sh
-   git clone https://github.com/yourusername/collaborative-coding-platform.git
-   cd collaborative-coding-platform
+   git clone https://github.com/PranjalShinde18/CodeTogether.git
+   
+   cd CodeTogether
 
 ## Install frontend dependencies
 cd client
