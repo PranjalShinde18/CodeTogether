@@ -32,28 +32,28 @@ Collaborate, code, and conquer your projects together with this Collaborative Co
    
    cd CodeTogether
 
-2. Install frontend dependencies
+2. **Install frontend dependencies**
 cd client
 npm install
 
-3. Install backend dependencies
+3. **Install backend dependencies**
 cd ../server
 npm install
 
-4. Set up environment variables
+4. **Set up environment variables**
 MONGO_URI=your_mongodb_uri
 JWT_SECRET=your_jwt_secret
 PORT=5000
 
 
-5. Run the backend
+5. **Run the backend**
 cd server
 npm start
 
-6. Run the frontend
+6. **Run the frontend**
 cd client
 npm start
 
-7. Open your browser and navigate to
+7. **Open your browser and navigate to**
 http://localhost:3000
 
