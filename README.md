@@ -30,3 +30,29 @@ Collaborate, code, and conquer your projects together with this Collaborative Co
    ```sh
    git clone https://github.com/yourusername/collaborative-coding-platform.git
    cd collaborative-coding-platform
+
+   # Install frontend dependencies
+cd client
+npm install
+
+# Install backend dependencies
+cd ../server
+npm install
+
+# Set up environment variables
+MONGO_URI=your_mongodb_uri
+JWT_SECRET=your_jwt_secret
+PORT=5000
+
+
+# Run the backend
+cd server
+npm start
+
+# Run the frontend
+cd client
+npm start
+
+# Open your browser and navigate to
+http://localhost:3000
+
