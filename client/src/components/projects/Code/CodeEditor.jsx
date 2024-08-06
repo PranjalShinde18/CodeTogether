@@ -26,7 +26,7 @@
 //     }
 
 //     // Initialize Socket.io client
-//     socketRef.current = io('http://localhost:5000', {
+//     socketRef.current = io('https://codetogether-3c8e.onrender.com', {
 //       query: { token, projectId }
 //     });
 
@@ -103,7 +103,7 @@
 //     }
 
 //     // Initialize Socket.io client
-//     socketRef.current = io('http://localhost:5000', {
+//     socketRef.current = io('https://codetogether-3c8e.onrender.com', {
 //       query: { token, projectId }
 //     });
 
@@ -193,7 +193,7 @@ const CodeEditor = () => {
     }
 
     // Initialize Socket.io client
-    socketRef.current = io('http://localhost:5000', {
+    socketRef.current = io('https://codetogether-3c8e.onrender.com', {
       query: { token, projectId }
     });
 

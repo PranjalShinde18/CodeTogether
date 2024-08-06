@@ -11,7 +11,7 @@
 //   const handleLogin = async (e) => {
 //     e.preventDefault();
 //     try {
-//         const response = await axios.post('http://localhost:5000/api/auth/login', { username, password });
+//         const response = await axios.post('https://codetogether-3c8e.onrender.com/api/auth/login', { username, password });
 //         if (response.data.token) {
 //             // Save token and redirect
 //             console.log('Login successful:', response.data);
@@ -81,7 +81,7 @@ const Login = ({ setToken }) => {
     setLoading(true);
     setError('');
     try {
-      const response = await axios.post('http://localhost:5000/api/auth/login', { username, password });
+      const response = await axios.post('https://codetogether-3c8e.onrender.com/api/auth/login', { username, password });
       if (response.data.token) {
         // Save token and redirect
         localStorage.setItem('token', response.data.token);

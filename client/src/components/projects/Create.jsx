@@ -17,7 +17,7 @@ const Create = () => {
 
         try {
             const response = await axios.post(
-                'http://localhost:5000/api/projects/create',
+                'https://codetogether-3c8e.onrender.com/api/projects/create',
                 {
                     name: projectName,
                     description,

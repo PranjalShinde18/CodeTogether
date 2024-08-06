@@ -26,7 +26,7 @@ const Task = () => {
                     headers: { 'x-auth-token': token }
                 };
 
-                const response = await axios.get(`http://localhost:5000/api/projects/${projectId}`, config);
+                const response = await axios.get(`https://codetogether-3c8e.onrender.com/api/projects/${projectId}`, config);
                 setProject(response.data);
 
                 const membersMap = response.data.members.reduce((acc, member) => {
@@ -67,7 +67,7 @@ const Task = () => {
             }
 
             const response = await axios.post(
-                `http://localhost:5000/api/projects/${projectId}/assign-task`,
+                `https://codetogether-3c8e.onrender.com/api/projects/${projectId}/assign-task`,
                 {
                     description: newTask,
                     assignedTo: selectedUser.username,
@@ -96,7 +96,7 @@ const Task = () => {
             };
 
             const response = await axios.patch(
-                `http://localhost:5000/api/projects/${projectId}/change-task-status/${taskId}`,
+                `https://codetogether-3c8e.onrender.com/api/projects/${projectId}/change-task-status/${taskId}`,
                 { status: newStatus },
                 config
             );

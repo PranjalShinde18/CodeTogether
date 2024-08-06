@@ -17,7 +17,7 @@ const Join = () => {
 
         try {
             const response = await axios.post(
-                'http://localhost:5000/api/projects/join',
+                'https://codetogether-3c8e.onrender.com/api/projects/join',
                 {
                     project_id: projectId,
                     password

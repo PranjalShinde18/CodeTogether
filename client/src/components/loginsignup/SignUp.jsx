@@ -12,7 +12,7 @@ const SignUp = ({ setToken }) => {
   const handleSignup = async (e) => {
     e.preventDefault();
     try {
-      const response = await axios.post('http://localhost:5000/api/auth/signup', { username, email, password });
+      const response = await axios.post('https://codetogether-3c8e.onrender.com/api/auth/signup', { username, email, password });
       if (response.data.token) {
         // Store token and redirect to home
         setToken(response.data.token);

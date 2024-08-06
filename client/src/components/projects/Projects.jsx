@@ -17,11 +17,11 @@
 //                 };
 
 //                 // Fetch created projects
-//                 const createdResponse = await axios.get('http://localhost:5000/api/projects/created', config);
+//                 const createdResponse = await axios.get('https://codetogether-3c8e.onrender.com/api/projects/created', config);
 //                 setCreatedProjects(createdResponse.data.projects);
 
 //                 // Fetch joined projects
-//                 const joinedResponse = await axios.get('http://localhost:5000/api/projects/joined', config);
+//                 const joinedResponse = await axios.get('https://codetogether-3c8e.onrender.com/api/projects/joined', config);
 //                 setJoinedProjects(joinedResponse.data.projects);
 //             } catch (error) {
 //                 console.error('Error fetching projects:', error);
@@ -119,11 +119,11 @@ const Projects = () => {
                 };
 
                 // Fetch created projects
-                const createdResponse = await axios.get('http://localhost:5000/api/projects/created', config);
+                const createdResponse = await axios.get('https://codetogether-3c8e.onrender.com/api/projects/created', config);
                 setCreatedProjects(createdResponse.data.projects);
 
                 // Fetch joined projects
-                const joinedResponse = await axios.get('http://localhost:5000/api/projects/joined', config);
+                const joinedResponse = await axios.get('https://codetogether-3c8e.onrender.com/api/projects/joined', config);
                 setJoinedProjects(joinedResponse.data.projects);
             } catch (error) {
                 console.error('Error fetching projects:', error);
