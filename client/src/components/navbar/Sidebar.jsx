@@ -14,7 +14,7 @@ const Sidebar = ({ token, user }) => {
   return (
     <div className="sidebar">
       <div className="logo">
-        <span className="logo-name">Code Together</span>
+        <span className="logo-name">Code Orbit</span>
       </div>
       <div className="sidebar-content">
         <ul className="lists">
